@@ -41,7 +41,7 @@ public class Main {
         short b = 2;
         int c = 3;
         long d = 4L;
-        float f = 5;
+        float f = 5f;
         double g = 6;
 
         System.out.println("Значение переменной a с типом byte равно: " + a);
@@ -110,7 +110,7 @@ public class Main {
         short whitePaint = 2;
         short brownPaint = 4;
 
-        short classes = 120 / (4 + 2);
+        short classes = (short)(tinPaint / (4 + 2));
 
         int countOfWhite = classes * whitePaint;
         int countOfBrown = classes * brownPaint;
